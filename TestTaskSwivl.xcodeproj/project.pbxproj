@@ -7,12 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042C66AB20E0145600C876D0 /* RequestParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C66AA20E0145600C876D0 /* RequestParser.swift */; };
+		042C66AF20E0204400C876D0 /* DABasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C66AE20E0204400C876D0 /* DABasicView.swift */; };
+		042C66B120E0207200C876D0 /* DABasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C66B020E0207200C876D0 /* DABasicViewController.swift */; };
+		042C66B820E03FFE00C876D0 /* GitListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C66B720E03FFE00C876D0 /* GitListView.swift */; };
+		042C66BA20E041D300C876D0 /* GitUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C66B920E041D300C876D0 /* GitUserCell.swift */; };
+		042C66BC20E0460300C876D0 /* GitListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C66BB20E0460300C876D0 /* GitListModel.swift */; };
+		042C66BF20E0EFD000C876D0 /* LoadingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C66BE20E0EFD000C876D0 /* LoadingFooterView.swift */; };
+		042C66C120E0F07600C876D0 /* LoadingFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042C66C020E0F07600C876D0 /* LoadingFooterView.xib */; };
+		042C66C420E2442500C876D0 /* UserFollowersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C66C320E2442500C876D0 /* UserFollowersListViewController.swift */; };
+		042C66C720E2462E00C876D0 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C66C620E2462E00C876D0 /* UIImageViewExtension.swift */; };
+		042C66C920E2468300C876D0 /* FollowerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C66C820E2468300C876D0 /* FollowerModel.swift */; };
+		042C66CB20E2489500C876D0 /* UserFollowersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C66CA20E2489500C876D0 /* UserFollowersListView.swift */; };
+		042C66CD20E2586B00C876D0 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C66CC20E2586B00C876D0 /* FollowerCell.swift */; };
+		042C66D020E2601800C876D0 /* UserStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C66CF20E2601800C876D0 /* UserStruct.swift */; };
+		042C66D220E2602C00C876D0 /* FollowerStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C66D120E2602C00C876D0 /* FollowerStruct.swift */; };
 		0439A3E720DE4AD8002E589B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439A3E620DE4AD8002E589B /* AppDelegate.swift */; };
-		0439A3E920DE4AD8002E589B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439A3E820DE4AD8002E589B /* ViewController.swift */; };
+		0439A3E920DE4AD8002E589B /* GitListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439A3E820DE4AD8002E589B /* GitListViewController.swift */; };
 		0439A3EC20DE4AD8002E589B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0439A3EA20DE4AD8002E589B /* Main.storyboard */; };
 		0439A3EE20DE4ADA002E589B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0439A3ED20DE4ADA002E589B /* Assets.xcassets */; };
 		0439A3F120DE4ADA002E589B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0439A3EF20DE4ADA002E589B /* LaunchScreen.storyboard */; };
 		0439A3FC20DE4ADA002E589B /* TestTaskSwivlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439A3FB20DE4ADA002E589B /* TestTaskSwivlTests.swift */; };
+		0439A40720DE54A4002E589B /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439A40620DE54A4002E589B /* APIService.swift */; };
+		0439A40920DEFC7A002E589B /* ProjectRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439A40820DEFC7A002E589B /* ProjectRequests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +43,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042C66AA20E0145600C876D0 /* RequestParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestParser.swift; sourceTree = "<group>"; };
+		042C66AE20E0204400C876D0 /* DABasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DABasicView.swift; sourceTree = "<group>"; };
+		042C66B020E0207200C876D0 /* DABasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DABasicViewController.swift; sourceTree = "<group>"; };
+		042C66B720E03FFE00C876D0 /* GitListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitListView.swift; sourceTree = "<group>"; };
+		042C66B920E041D300C876D0 /* GitUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitUserCell.swift; sourceTree = "<group>"; };
+		042C66BB20E0460300C876D0 /* GitListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitListModel.swift; sourceTree = "<group>"; };
+		042C66BE20E0EFD000C876D0 /* LoadingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingFooterView.swift; sourceTree = "<group>"; };
+		042C66C020E0F07600C876D0 /* LoadingFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingFooterView.xib; sourceTree = "<group>"; };
+		042C66C320E2442500C876D0 /* UserFollowersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFollowersListViewController.swift; sourceTree = "<group>"; };
+		042C66C620E2462E00C876D0 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		042C66C820E2468300C876D0 /* FollowerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerModel.swift; sourceTree = "<group>"; };
+		042C66CA20E2489500C876D0 /* UserFollowersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFollowersListView.swift; sourceTree = "<group>"; };
+		042C66CC20E2586B00C876D0 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
+		042C66CF20E2601800C876D0 /* UserStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStruct.swift; sourceTree = "<group>"; };
+		042C66D120E2602C00C876D0 /* FollowerStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerStruct.swift; sourceTree = "<group>"; };
 		0439A3E320DE4AD8002E589B /* TestTaskSwivl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTaskSwivl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0439A3E620DE4AD8002E589B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0439A3E820DE4AD8002E589B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0439A3E820DE4AD8002E589B /* GitListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitListViewController.swift; sourceTree = "<group>"; };
 		0439A3EB20DE4AD8002E589B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0439A3ED20DE4ADA002E589B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0439A3F020DE4ADA002E589B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +68,8 @@
 		0439A3F720DE4ADA002E589B /* TestTaskSwivlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTaskSwivlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0439A3FB20DE4ADA002E589B /* TestTaskSwivlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTaskSwivlTests.swift; sourceTree = "<group>"; };
 		0439A3FD20DE4ADB002E589B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0439A40620DE54A4002E589B /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		0439A40820DEFC7A002E589B /* ProjectRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectRequests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +90,102 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042C66B220E0217400C876D0 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				0439A40820DEFC7A002E589B /* ProjectRequests.swift */,
+				0439A40620DE54A4002E589B /* APIService.swift */,
+				042C66AA20E0145600C876D0 /* RequestParser.swift */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		042C66B320E0218C00C876D0 /* BasicElement */ = {
+			isa = PBXGroup;
+			children = (
+				042C66B420E0219D00C876D0 /* UIElement */,
+			);
+			path = BasicElement;
+			sourceTree = "<group>";
+		};
+		042C66B420E0219D00C876D0 /* UIElement */ = {
+			isa = PBXGroup;
+			children = (
+				042C66AE20E0204400C876D0 /* DABasicView.swift */,
+				042C66B020E0207200C876D0 /* DABasicViewController.swift */,
+			);
+			path = UIElement;
+			sourceTree = "<group>";
+		};
+		042C66B520E021A800C876D0 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				042C66B320E0218C00C876D0 /* BasicElement */,
+				042C66BD20E0EF7800C876D0 /* CustomView */,
+				042C66C520E2461800C876D0 /* Extension */,
+				0439A3EF20DE4ADA002E589B /* LaunchScreen.storyboard */,
+				0439A3ED20DE4ADA002E589B /* Assets.xcassets */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		042C66B620E021C900C876D0 /* UsersList */ = {
+			isa = PBXGroup;
+			children = (
+				042C66BB20E0460300C876D0 /* GitListModel.swift */,
+				042C66B720E03FFE00C876D0 /* GitListView.swift */,
+				0439A3E820DE4AD8002E589B /* GitListViewController.swift */,
+				042C66B920E041D300C876D0 /* GitUserCell.swift */,
+				042C66C220E243ED00C876D0 /* UserFollowersList */,
+			);
+			path = UsersList;
+			sourceTree = "<group>";
+		};
+		042C66BD20E0EF7800C876D0 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				042C66BE20E0EFD000C876D0 /* LoadingFooterView.swift */,
+				042C66C020E0F07600C876D0 /* LoadingFooterView.xib */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		042C66C220E243ED00C876D0 /* UserFollowersList */ = {
+			isa = PBXGroup;
+			children = (
+				042C66C820E2468300C876D0 /* FollowerModel.swift */,
+				042C66CA20E2489500C876D0 /* UserFollowersListView.swift */,
+				042C66C320E2442500C876D0 /* UserFollowersListViewController.swift */,
+				042C66CC20E2586B00C876D0 /* FollowerCell.swift */,
+			);
+			path = UserFollowersList;
+			sourceTree = "<group>";
+		};
+		042C66C520E2461800C876D0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				042C66C620E2462E00C876D0 /* UIImageViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		042C66CE20E2600500C876D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				042C66CF20E2601800C876D0 /* UserStruct.swift */,
+				042C66D120E2602C00C876D0 /* FollowerStruct.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		042C66D320E2609000C876D0 /* MainFlow */ = {
+			isa = PBXGroup;
+			children = (
+				042C66B620E021C900C876D0 /* UsersList */,
+			);
+			path = MainFlow;
+			sourceTree = "<group>";
+		};
 		0439A3DA20DE4AD8002E589B = {
 			isa = PBXGroup;
 			children = (
@@ -78,10 +208,11 @@
 			isa = PBXGroup;
 			children = (
 				0439A3E620DE4AD8002E589B /* AppDelegate.swift */,
-				0439A3E820DE4AD8002E589B /* ViewController.swift */,
 				0439A3EA20DE4AD8002E589B /* Main.storyboard */,
-				0439A3ED20DE4ADA002E589B /* Assets.xcassets */,
-				0439A3EF20DE4ADA002E589B /* LaunchScreen.storyboard */,
+				042C66B220E0217400C876D0 /* APIService */,
+				042C66CE20E2600500C876D0 /* Model */,
+				042C66D320E2609000C876D0 /* MainFlow */,
+				042C66B520E021A800C876D0 /* Other */,
 				0439A3F220DE4ADA002E589B /* Info.plist */,
 			);
 			path = TestTaskSwivl;
@@ -179,6 +310,7 @@
 			files = (
 				0439A3F120DE4ADA002E589B /* LaunchScreen.storyboard in Resources */,
 				0439A3EE20DE4ADA002E589B /* Assets.xcassets in Resources */,
+				042C66C120E0F07600C876D0 /* LoadingFooterView.xib in Resources */,
 				0439A3EC20DE4AD8002E589B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,8 +329,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0439A3E920DE4AD8002E589B /* ViewController.swift in Sources */,
+				042C66AF20E0204400C876D0 /* DABasicView.swift in Sources */,
+				042C66BA20E041D300C876D0 /* GitUserCell.swift in Sources */,
+				042C66BC20E0460300C876D0 /* GitListModel.swift in Sources */,
+				0439A3E920DE4AD8002E589B /* GitListViewController.swift in Sources */,
+				042C66CB20E2489500C876D0 /* UserFollowersListView.swift in Sources */,
+				042C66BF20E0EFD000C876D0 /* LoadingFooterView.swift in Sources */,
+				0439A40720DE54A4002E589B /* APIService.swift in Sources */,
+				042C66CD20E2586B00C876D0 /* FollowerCell.swift in Sources */,
+				042C66B120E0207200C876D0 /* DABasicViewController.swift in Sources */,
+				042C66C420E2442500C876D0 /* UserFollowersListViewController.swift in Sources */,
 				0439A3E720DE4AD8002E589B /* AppDelegate.swift in Sources */,
+				042C66D020E2601800C876D0 /* UserStruct.swift in Sources */,
+				042C66C920E2468300C876D0 /* FollowerModel.swift in Sources */,
+				0439A40920DEFC7A002E589B /* ProjectRequests.swift in Sources */,
+				042C66AB20E0145600C876D0 /* RequestParser.swift in Sources */,
+				042C66C720E2462E00C876D0 /* UIImageViewExtension.swift in Sources */,
+				042C66D220E2602C00C876D0 /* FollowerStruct.swift in Sources */,
+				042C66B820E03FFE00C876D0 /* GitListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
